@@ -11,6 +11,10 @@
 		D6C90D611B2FF6D800C86102 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C90D601B2FF6D800C86102 /* Images.xcassets */; };
 		D6C90D641B2FF6D800C86102 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6C90D621B2FF6D800C86102 /* LaunchScreen.xib */; };
 		D6C90D701B2FF6D800C86102 /* CheckBoxinSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C90D6F1B2FF6D800C86102 /* CheckBoxinSwiftTests.swift */; };
+		D6C90D7B1B2FF6EE00C86102 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C90D791B2FF6EE00C86102 /* ViewController.swift */; };
+		D6C90D7C1B2FF6EE00C86102 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6C90D7A1B2FF6EE00C86102 /* ViewController.xib */; };
+		D6C90D7E1B30011000C86102 /* TableData.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6C90D7D1B30011000C86102 /* TableData.plist */; };
+		D6C90D8D1B30062D00C86102 /* Checkbox.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C90D8C1B30062D00C86102 /* Checkbox.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,13 @@
 		D6C90D691B2FF6D800C86102 /* CheckBoxinSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckBoxinSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C90D6E1B2FF6D800C86102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6C90D6F1B2FF6D800C86102 /* CheckBoxinSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxinSwiftTests.swift; sourceTree = "<group>"; };
+		D6C90D791B2FF6EE00C86102 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		D6C90D7A1B2FF6EE00C86102 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = ../ViewController.xib; sourceTree = "<group>"; };
+		D6C90D7D1B30011000C86102 /* TableData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TableData.plist; sourceTree = SOURCE_ROOT; };
+		D6C90D891B30061F00C86102 /* CheckBoxinSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheckBoxinSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		D6C90D8A1B30061F00C86102 /* Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo.h; sourceTree = "<group>"; };
+		D6C90D8B1B30062D00C86102 /* Checkbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Checkbox.h; sourceTree = SOURCE_ROOT; };
+		D6C90D8C1B30062D00C86102 /* Checkbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Checkbox.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +84,17 @@
 		D6C90D5B1B2FF6D800C86102 /* CheckBoxinSwift */ = {
 			isa = PBXGroup;
 			children = (
+				D6C90D8B1B30062D00C86102 /* Checkbox.h */,
+				D6C90D8C1B30062D00C86102 /* Checkbox.m */,
+				D6C90D7D1B30011000C86102 /* TableData.plist */,
 				D6C90D5E1B2FF6D800C86102 /* AppDelegate.swift */,
 				D6C90D601B2FF6D800C86102 /* Images.xcassets */,
 				D6C90D621B2FF6D800C86102 /* LaunchScreen.xib */,
+				D6C90D791B2FF6EE00C86102 /* ViewController.swift */,
+				D6C90D7A1B2FF6EE00C86102 /* ViewController.xib */,
 				D6C90D5C1B2FF6D800C86102 /* Supporting Files */,
+				D6C90D8A1B30061F00C86102 /* Demo.h */,
+				D6C90D891B30061F00C86102 /* CheckBoxinSwift-Bridging-Header.h */,
 			);
 			path = CheckBoxinSwift;
 			sourceTree = "<group>";
@@ -187,7 +205,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6C90D641B2FF6D800C86102 /* LaunchScreen.xib in Resources */,
+				D6C90D7C1B2FF6EE00C86102 /* ViewController.xib in Resources */,
 				D6C90D611B2FF6D800C86102 /* Images.xcassets in Resources */,
+				D6C90D7E1B30011000C86102 /* TableData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +225,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6C90D7B1B2FF6EE00C86102 /* ViewController.swift in Sources */,
+				D6C90D8D1B30062D00C86102 /* Checkbox.m in Sources */,
 				D6C90D5F1B2FF6D800C86102 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,9 +344,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CheckBoxinSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CheckBoxinSwift/CheckBoxinSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -332,9 +357,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CheckBoxinSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CheckBoxinSwift/CheckBoxinSwift-Bridging-Header.h";
 			};
 			name = Release;
 		};
